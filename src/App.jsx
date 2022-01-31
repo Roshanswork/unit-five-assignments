@@ -1,6 +1,7 @@
 
 import './App.css';
 import { Counter } from './components/counter';
+import { Todo } from './components/input/todo';
 // import { UserDetails } from './components/userDetails';
 
 function App() {
@@ -10,6 +11,9 @@ function App() {
       <UserDetails name="Lucky" add="Pune" age="17" aboveAge={false} /> */}
 
     <Counter />
+    <br />
+    <Todo />
+
     </div>
   );
 }
